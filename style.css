@@ -32,6 +32,7 @@ main {
 .product-image {
   margin: 20px;
   visibility: hidden;
+  border: 7px solid black;
 }
 
 img {
