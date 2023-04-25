@@ -12,8 +12,14 @@
   <main>
     <section class="product-info">
       <h2>Leiras az elso termekről:</h2>
-      <p>Arany kék szilikon tok, ár=6800Ft csak előreutalassal.Teljesen uj allapotba van.A szallitas benne van az árba.Ha érdekli a tok akkor kérem irjon erre az <a href="https://mail.google.com/">email cimre</a> az ön adataival(cim,nev).</p>
-      <button onclick="mutat()">Termék megtekintése</button>
+      <ul id="infok">
+        <li>Arany kék szilikon tok</li>
+        <li>Ár=6800Ft</li>
+        <li>Csak előreutalassal</li>
+        <li>Teljesen uj allapotba van</li>
+        <li>A szallitas benne van az árba</li>
+        <li>Ha érdekli a tok akkor kérem irjon erre az <a href="https://mail.google.com/">email cimre</a> az ön adataival(cim,nev)</li>
+      </ul>
     </section>
     <section class="product-image">
       <img class="kepek" src="./kepek/arany_elolsu.jpeg" alt="Arany elolrol" title="Arany elolrol">
@@ -23,14 +29,5 @@
   <footer>
     <p>Készítette: Török Máté</p>
   </footer>
-  <script src="script.js">
-    function mutat(){
-      var kepek = document.getElementsByClassName('kepek');
-      for (var i = 0; i < kepek.length; i++) {
-        kepek[i].style.visibility = 'visible';
-      }
-      
-    }
-  </script>
 </body>
 </html>

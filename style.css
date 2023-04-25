@@ -59,3 +59,15 @@ footer {
   padding: 20px;
   text-align: center;
 }
+a{
+ text-decoration: none;
+ color: #9B489B;
+}
+a:visited{
+  text-decoration: none;
+  color: #9B489B;
+}
+a:hover{
+  text-decoration: none;
+  color: #9B489B;
+}
