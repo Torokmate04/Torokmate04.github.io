@@ -59,3 +59,6 @@ a:hover{
 ul{
   list-style: none;
 }
+ul.li{
+  font-weight: 400;
+}
