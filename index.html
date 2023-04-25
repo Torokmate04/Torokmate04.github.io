@@ -3,31 +3,46 @@
 <head>
   <meta charset="UTF-8">
   <title>Iphone tokok</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>Iphone Xs Max tokok</h1>
+  <header class="jumbotron text-center">
+    <h1 class="display-4">Iphone Xs Max tokok</h1>
   </header>
-  <main>
-    <section class="product-info">
-      <h2>Leiras az elso termekről:</h2>
-      <ul id="infok">
-        <li>Arany kék szilikon tok</li>
-        <li>Ár=6800Ft</li>
-        <li>Csak előreutalassal</li>
-        <li>Teljesen uj allapotba van</li>
-        <li>A szallitas benne van az árba</li>
-        <li>Ha érdekli a tok akkor kérem irjon erre az <a href="https://mail.google.com/">email cimre</a> az ön adataival(cim,nev)</li>
-      </ul>
-    </section>
-    <section class="product-image">
-      <img class="kepek" src="./kepek/arany_elolsu.jpeg" alt="Arany elolrol" title="Arany elolrol">
-      <img class="kepek" src="./kepek/arany_hatulrso.jpeg" alt="Arany hatulrol" title="Arany hatulrol">
-    </section>
+  <main class="container">
+    <div class="row">
+      <section class="col-md-6">
+        <h2>Leiras az elso termekről:</h2>
+        <div class="card mb-4">
+          <img class="card-img-top" src="arany-kek-szilikon-tok.jpg" alt="Arany kék szilikon tok">
+          <div class="card-body">
+            <h2 class="card-title product-name">Arany kék szilikon tok</h2>
+            <p class="card-text product-description">Teljesen új állapotban lévő arany kék szilikon tok</p>
+            <p class="card-text product-price">Ár: 6 800 Ft</p>
+            <p class="card-text product-shipping">Ingyenes szállítás</p>
+            <p class="card-text product-payment">Csak előreutalással</p>
+          </div>
+        </div>
+      </section>
+      <section class="col-md-6">
+        <h2>Képek</h2>
+        <div class="card mb-4">
+          <div class="card-body">
+            <img class="kepek" src="./kepek/arany_elolsu.jpeg" alt="Arany elolrol" title="Arany elolrol">
+            <img class="kepek" src="./kepek/arany_hatulrso.jpeg" alt="Arany hatulrol" title="Arany hatulrol">
+          </div>
+        </div>
+      </section>
+    </div>
   </main>
-  <footer>
+  <footer class="footer bg-dark text-light text-center">
     <p>Készítette: Török Máté</p>
   </footer>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </body>
 </html>
+
