@@ -31,26 +31,11 @@ main {
 
 .product-image {
   margin: 20px;
-  visibility: hidden;
   border: 7px solid black;
 }
 
 img {
   max-width: 100%;
-}
-
-button {
-  background-color: #444;
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  margin-top: 20px;
-  cursor: pointer;
-  transition: background-color 0.3s ease-in-out;
-}
-
-button:hover {
-  background-color: #444;
 }
 
 footer {
