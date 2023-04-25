@@ -2,26 +2,32 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Termék Bemutató Oldal</title>
+  <title>Iphone tokok</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
-    <h1>Termék Címe</h1>
+    <h1>Iphone Xs Max tokok</h1>
   </header>
   <main>
     <section class="product-info">
-      <h2>Rövid leírás a termékről</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse at magna enim. Nullam fringilla, metus eu cursus elementum, turpis lacus commodo nisl, nec efficitur velit felis a ipsum.</p>
-      <button>Termék megtekintése</button>
+      <h2>Leiras az elso termekről:</h2>
+      <p>Arany kék szilikon tok, ár=6800Ft csak előreutalassal.Teljesen uj allapotba van.A szallitas benne van az árba.Ha érdekli a tok akkor kérem irjon erre az <a href="">email cimre</a> az ön adataival(cim,nev).</p>
+      <button onclick="mutat()">Termék megtekintése</button>
     </section>
     <section class="product-image">
-      <img src="product-image.jpg" alt="Termék neve">
+      <img src="./kepek/arany_elolsu.jpeg" alt="Arany elolrol" title="Arany elolrol">
+      <img src="./kepek/arany_hatulrso.jpeg" alt="Arany hatulrol" title="Arany hatulrol">
     </section>
   </main>
   <footer>
-    <p>Készítette: Név</p>
+    <p>Készítette: Török Máté</p>
   </footer>
-  <script src="script.js"></script>
+  <script src="script.js">
+    function mutat(){
+      var kep = document.querySelector('.product.image');
+      kep.classList.toggle('visible');
+    }
+  </script>
 </body>
 </html>
