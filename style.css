@@ -2,12 +2,12 @@ body {
   margin: 0;
   font-family: Arial, sans-serif;
   background-color: #8cdfd6;
-  color: #F3A712;
+  color: #E99F0C;
 }
 
 header {
   background-color: #37A3BE;
-  color: #B20D30;
+  color: #FAFF00;
   padding: 20px;
 }
 
@@ -40,8 +40,8 @@ img {
 }
 
 button {
-  background-color: #37A3BE;
-  color: #B20D30;
+  background-color: #444;
+  color: white;
   border: none;
   padding: 10px 20px;
   margin-top: 20px;
@@ -54,8 +54,8 @@ button:hover {
 }
 
 footer {
-  background-color: #333;
-  color: #fff;
+  background-color: #37A3BE;
+  color: #FAFF00;
   padding: 20px;
   text-align: center;
 }

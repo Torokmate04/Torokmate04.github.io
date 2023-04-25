@@ -12,12 +12,12 @@
   <main>
     <section class="product-info">
       <h2>Leiras az elso termekről:</h2>
-      <p>Arany kék szilikon tok, ár=6800Ft csak előreutalassal.Teljesen uj allapotba van.A szallitas benne van az árba.Ha érdekli a tok akkor kérem irjon erre az <a href="">email cimre</a> az ön adataival(cim,nev).</p>
+      <p>Arany kék szilikon tok, ár=6800Ft csak előreutalassal.Teljesen uj allapotba van.A szallitas benne van az árba.Ha érdekli a tok akkor kérem irjon erre az <a href="https://mail.google.com/">email cimre</a> az ön adataival(cim,nev).</p>
       <button onclick="mutat()">Termék megtekintése</button>
     </section>
     <section class="product-image">
-      <img src="./kepek/arany_elolsu.jpeg" alt="Arany elolrol" title="Arany elolrol">
-      <img src="./kepek/arany_hatulrso.jpeg" alt="Arany hatulrol" title="Arany hatulrol">
+      <img class="kepek" src="./kepek/arany_elolsu.jpeg" alt="Arany elolrol" title="Arany elolrol">
+      <img class="kepek" src="./kepek/arany_hatulrso.jpeg" alt="Arany hatulrol" title="Arany hatulrol">
     </section>
   </main>
   <footer>
@@ -25,8 +25,11 @@
   </footer>
   <script src="script.js">
     function mutat(){
-      var kep = document.querySelector('.product.image');
-      kep.classList.toggle('visible');
+      var kepek = document.getElementsByClassName('kepek');
+      for (var i = 0; i < kepek.length; i++) {
+        kepek[i].style.visibility = 'visible';
+      }
+      
     }
   </script>
 </body>
