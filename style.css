@@ -1,92 +1,51 @@
-body {
+html,body {
+  background-color: #113537;
+  background-image: linear-gradient(to bottom right, #113537, #264A50);
+  color: #FFEAD0;
+  font-family: 'Quicksand', sans-serif;
   margin: 0;
-  font-family: Arial, sans-serif;
-  background-color: #8cdfd6;
-  color: #E99F0C;
-}
-
-header {
-  background-color: #37A3BE;
-  color: #FAFF00;
-  padding: 20px;
-}
-
-h1 {
-  margin: 0;
-}
-
-main {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
-}
-footer {
-  background-color: #37A3BE;
-  color: #FAFF00;
-  padding: 20px;
-  text-align: center;
-}
-a{
- text-decoration: none;
- color: #0905F0;
-}
-a:visited{
-  text-decoration: none;
-  color: #0905F0;
-}
-a:hover{
-  text-decoration: none;
-  color: #0905F0;
-}
-nav ul{
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  text-align: center;
-}
-nav ul li a{
-  text-decoration: none;
-  color: #0905F0;
-  display: inline-block;
-  padding: 10px;
-}
-nav ul li a:visited{
-  text-decoration: none;
-  color: #0905F0;
-  display: inline-block;
-  padding: 10px;
-}
-nav ul li a:hover{
-  text-decoration: none;
-  color: #0905F0;
-  display: inline-block;
-  padding: 10px;
-}
-nav ul li {
-  display: inline;
-}
-.kepek {
-  display: inline-block;
-  border: 7px solid black;
   width: 100%;
-  height: auto;
-  margin-right: 5%; /* a margó a jobb oldalon az egyszerűbb elrendezés érdekében */
+  height: 100%;
+}
+h2 {
+  font-size: 2.5rem;
+}
+p {
+  font-size: 1.2rem;
+}
+ul {
+  background-color: rgba(55, 80, 92, 0.8);
+  list-style: none;
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  
 }
 
-.kepek:last-child {
-  margin-right: 0; /* az utolsó képnek ne legyen margója a jobb oldalon */
-}
-.back-to-top-btn {
-  position: fixed;
-  bottom: 20px;
-  right: 30px;
-  z-index: 9999;
-  border: none;
-  outline: none;
-  padding: 15px;
-  border-radius: 4px;
-  width: 100px;
+li {
+  box-sizing: border-box;
+  width: 10%;
   height: auto;
+  background-color: rgba(55, 80, 92, 0.9);
+  margin: 0.5rem;
+  padding: 0.5rem;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+}
+li:hover {
+  background-color: #5096A5;
+}
+a {
+  color: #FFEAD0;
+  text-decoration: none;
+}
+
+i {
+  display: block !important;
+  font-size: 2rem;
+  margin-bottom: 1rem;
 }
