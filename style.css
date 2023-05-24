@@ -1,12 +1,16 @@
 html,body {
-  background-color: #113537;
-  background-image: linear-gradient(to bottom right, #113537, #264A50);
-  color: #FFEAD0;
+  color: #000505;
   font-family: 'Quicksand', sans-serif;
   margin: 0;
+  padding: 0;
   width: 100%;
   height: 100%;
   scroll-behavior: smooth;
+}
+section{
+  background:linear-gradient(to top,#2A9D8F,#D2FF28);
+  padding: 20px;
+  margin-bottom: 0;
 }
 h2 {
   font-size: 2.5rem;
@@ -15,7 +19,7 @@ p {
   font-size: 1.2rem;
 }
 nav ul {
-  background-color: rgba(55, 80, 92, 0.8);
+  background-color: #51CB20;
   list-style: none;
   display: inline-flex;
   flex-wrap: wrap;
@@ -30,18 +34,17 @@ nav li {
   box-sizing: border-box;
   width: 10%;
   height: auto;
-  background-color: rgba(55, 80, 92, 0.9);
+  background-color: #FFF;
   margin: 0.5rem;
   padding: 0.5rem;
   text-align: center;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   transition: background-color 0.3s ease;
 }
 nav li:hover {
-  background-color: #50a56c;
+  background-color: #D2FF28;
 }
 a {
-  color: #FFEAD0;
+  color: black;
   text-decoration: none;
 }
 
@@ -65,4 +68,14 @@ nav i {
 }
 .jobb{
   float: right;
+}
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #F26419;;
+  color: #000;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
 }
